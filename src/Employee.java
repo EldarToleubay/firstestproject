@@ -6,4 +6,5 @@ public class Employee {
     String author;
     String department;
     String position;
+    int exp;
 }
