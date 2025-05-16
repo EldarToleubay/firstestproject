@@ -4,4 +4,6 @@ public class Employee {
     int salary;
     int w;
     String author;
+    String department;
+    String position;
 }
