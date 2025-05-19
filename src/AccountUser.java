@@ -1,5 +1,7 @@
 import java.util.HashMap;
 
+//fixme: класстың атауы бас әріппен басталады
+//fixme 2: дұрыс емес демейм, бірақ неге осы классты статик қылдым деген сұраққа жауап бере алуың керек
 public static class accountUser {
 public HashMap<String, String> accounts = new HashMap<>();
 
