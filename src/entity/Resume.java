@@ -1,5 +1,7 @@
 package entity;
 
+import service.ResumeService;
+
 //fixme---------------------------
 public class Resume {
     private String name;
@@ -36,6 +38,13 @@ public class Resume {
         this.surname = surname;
     }
 
+    public String  getEmail(){
+        return email;
+    }
+    public void setEmail(String email){
+        this.email= email;
+    }
+
     public int getPhoneNumber() {
         return phoneNumber;
     }
@@ -61,6 +70,7 @@ public class Resume {
     }
 
     public void displayResume() {
+
     }
 }
 //fixme---------------------------

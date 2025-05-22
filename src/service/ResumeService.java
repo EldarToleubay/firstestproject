@@ -1,6 +1,10 @@
 package service;
 
+import entity.Resume;
+
 public interface ResumeService {
-    public void displayResume( );
-    public void updateresume();
+    public void disPlayResume( );
+    public void addResume(Resume resume);
+
+
 }

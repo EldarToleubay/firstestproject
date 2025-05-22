@@ -1,17 +1,23 @@
 package service.impl;
 
 
+import entity.Resume;
 import service.ResumeService;
 
 
-public class ResumeServiceImpl implements ResumeService {
+public abstract class ResumeServiceImpl implements ResumeService {
     @Override
-    public void displayResume() {
+    public void disPlayResume() {
+
 
     }
 
     @Override
-    public void updateresume() {
+    public void addResume(Resume resume) {
+
+
 
     }
+
+
 }
